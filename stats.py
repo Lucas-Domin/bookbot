@@ -21,6 +21,6 @@ def string_character_count(text):
 
 def dictionary_to_list_sorted(dictionary):
     dict_list = list(dictionary.items()) # convert to list 
-    dict_list.sort(key=lambda x: x[1], reverse=True) # sort by count desc
+    dict_list.sort(key=lambda x: x[1], reverse=True) # sort by countdesc
     return dict_list
 
